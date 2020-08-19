@@ -1,0 +1,16 @@
+{
+  "name": "utimco",
+  "version": "0.0.0",
+  "description": "Utimco",
+  "main": "app.js",
+  "author": {
+    "name": "Robert W. Catalano"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
