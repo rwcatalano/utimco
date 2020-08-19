@@ -5,7 +5,9 @@ Hi there!
 Thanks for the opportunity to apply for this role. I was torn between writing this in C# with linq or nodejs using map and reduce. 
 I opted for nodejs due to the speed in which I was able to get map reduce working... at the cost of having to learn a new testing framework (mocha).
 
-Here is how I broke the project down.
+=======================================
+Directory Structure
+=======================================
 
 |__ data				contains the menu.json source file
 |__ services			business logic in utimco.js
@@ -32,6 +34,9 @@ https://www.guru99.com/download-install-node-js.html
 Next, navigate to the root of this directory via your favorite cli and run the node command below to execute and print results to screen
 Note: full path to file can also be a relative path ".\data\menu.json"
 
+=======================================
+Run the App
+=======================================
 > node app.js "C:\FULL\PATH\TO\FILE.json"
 
 
@@ -42,7 +47,13 @@ What is happening ...
 4. Print the result to the screen as an array
 
 
+=======================================
 Unit Tests
+=======================================
+** You will need to install 2 node packages before you can run the tests **
+> npm install mocha
+> npm install chai
+
 The unit tests were written in moca and chai and cover the following cases:
 1. Can I open a file?
 2. Does the function work to parse txt into json?
@@ -51,7 +62,9 @@ The unit tests were written in moca and chai and cover the following cases:
 5. Can I calculate with negative numbers?
 6. Can I calculate with negative numbers and floats?
 
-Run the unit tests using the following command (from the )
+=======================================
+Run the unit tests
+=======================================
 > npm run test
 
 You should see 6 passing tests
