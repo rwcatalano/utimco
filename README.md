@@ -5,17 +5,17 @@ Hi there!
 Thanks for the opportunity to apply for this role. I was torn between writing this in C# with linq or nodejs using map and reduce. 
 I opted for nodejs due to the speed in which I was able to get map reduce working... at the cost of having to learn a new testing framework (mocha).
 
-=======================================
-Directory Structure
-=======================================
 
+## Directory Structure
+=======================================
+<pre>
 |__ data				contains the menu.json source file
 |__ services			business logic in utimco.js
 |__ test				contains test script and sample file
 | app.js				main entry for app
 | app_monolith.js		proof of concept
 | app2_startsplit.js	second pass - planning out separation of concerns
-
+</pre>
 
 I began with jamming out a quick monolithic program to understand problem and provide proof of a solution. This code is in the app_monolith.js file.
 More information on map reduce is available here:
@@ -34,8 +34,8 @@ https://www.guru99.com/download-install-node-js.html
 Next, navigate to the root of this directory via your favorite cli and run the node command below to execute and print results to screen
 Note: full path to file can also be a relative path ".\data\menu.json"
 
-=======================================
-Run the App
+
+## Run the App
 =======================================
 > node app.js "C:\FULL\PATH\TO\FILE.json"
 
@@ -47,8 +47,8 @@ What is happening ...
 4. Print the result to the screen as an array
 
 
-=======================================
-Unit Tests
+
+## Unit Tests
 =======================================
 ** You will need to install 2 node packages before you can run the tests **
 > npm install mocha
@@ -62,8 +62,8 @@ The unit tests were written in moca and chai and cover the following cases:
 5. Can I calculate with negative numbers?
 6. Can I calculate with negative numbers and floats?
 
-=======================================
-Run the unit tests
+
+## Run the unit tests
 =======================================
 > npm run test
 
