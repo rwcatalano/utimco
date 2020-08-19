@@ -7,7 +7,7 @@ I opted for nodejs due to the speed in which I was able to get map reduce workin
 
 
 ## Directory Structure
-===
+
 <pre>
 |__ data              contains the menu.json source file
 |__ services	        business logic in utimco.js
@@ -36,7 +36,7 @@ Note: full path to file can also be a relative path ".\data\menu.json"
 
 
 ## Run the App
-===
+
 > node app.js "C:\FULL\PATH\TO\FILE.json"
 
 
@@ -49,7 +49,7 @@ What is happening ...
 
 
 ## Unit Tests
-===
+
 ** You will need to install 2 node packages before you can run the tests **
 > npm install mocha
 > npm install chai
@@ -64,7 +64,7 @@ The unit tests were written in moca and chai and cover the following cases:
 
 
 ## Run the unit tests
-===
+
 > npm run test
 
 You should see 6 passing tests
